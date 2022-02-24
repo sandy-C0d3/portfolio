@@ -1,0 +1,56 @@
+.navbar{
+    height: 100px;
+}
+
+.navbar .nav-ctn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navbar .nav-ctn .nav-btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    width: 400px;
+
+}
+
+.navbar .nav-ctn .nav-btn a:hover{
+    border-radius: 12px;
+background-color: rgba(128, 128, 128, 0.274);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+}
+
+#home{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#skills{
+    background-color:  rgb(153, 202, 186);
+    height: 100vh;
+}
+
+#work{
+    background-color: rgb(48, 15, 80);
+    height: 100vh;
+}
+
+#outer-main-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:black;
+    background-color: bisque;
+}
